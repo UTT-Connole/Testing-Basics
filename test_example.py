@@ -31,3 +31,6 @@ class TestFizzBuzz(unittest.TestCase):
 
     def test_bad_input(self):
         self.assertEqual(fizzbuzz('bad input'), [])
+
+    def test_false(self):
+        self.assertFalse(True)
